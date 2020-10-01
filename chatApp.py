@@ -1,5 +1,5 @@
-from Tkinter import *
-from ttk import *
+from tkinter import*
+from tkinter import ttk
 import socket
 import thread
 
@@ -160,14 +160,14 @@ class ChatClient(Frame):
     self.friends.insert(self.counter,"%s:%s" % clientaddr)
   
   def removeClient(self, clientsoc, clientaddr):
-      print self.allClients
+      print (self.allClients)
       self.friends.delete(self.allClients[clientsoc])
       del self.allClients[clientsoc]
-      print self.allClients
+      print (self.allClients)
   
   def setStatus(self, msg):
     self.statusLabel.config(text=msg)
-    print msg
+    print (msg)
       
 def main():  
   root = Tk()
