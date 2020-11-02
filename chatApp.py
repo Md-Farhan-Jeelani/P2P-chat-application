@@ -76,7 +76,7 @@ class ChatClient(Frame):
 
     self.statusLabel = Label(parentFrame)
 
-    bottomLabel = Label(parentFrame, text="Created by Siddhartha under Prof. A. Prakash [Computer Networks, Dept. of CSE, BIT Mesra]")
+    bottomLabel = Label(parentFrame, text="Created by Md Farhan Jeelani under Prof. Miss Gitanjali [Computer Networks, Dept. of CSE, NIELIT, Delhi]")
     
     ipGroup.grid(row=0, column=0)
     readChatGroup.grid(row=1, column=0)
